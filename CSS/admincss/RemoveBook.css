@@ -1,0 +1,42 @@
+*
+      {
+        transition:all 500ms linear;
+      }
+     img
+      {
+       position: fixed;
+       width: 100%;
+       height: 100vh;
+       z-index: -12;
+       left:0;
+       right:0;
+       opacity:0.7;
+      }
+     .rmov
+     {
+        width:500px;
+        padding:30px;
+        background-color:black;
+        box-shadow:25px 25px 10px inset gold,-25px -25px 10px inset gold,15px 15px 20px  rgba(0, 0, 0, 0.429);
+        border-radius:10%;
+     }
+     .btn
+     {
+       padding:4px;
+       border-radius:10%;
+       font-weight:bold;
+       color:black;
+     }
+     .btn:hover
+     {
+      transform: scale(0.96);
+      background-color: gray;
+      color: rgba(0,0,0,0.675);
+      border: 0;
+     }
+     .rmov:hover
+     {
+      box-shadow:0px 0px 0px;
+       box-shadow:25px 25px 10px inset rgba(255, 217, 0, 0.662),-25px -25px 10px inset rgba(255, 217, 0, 0.579);
+      transform: scale(0.96);
+     }

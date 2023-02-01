@@ -1,0 +1,76 @@
+.footer-links a:hover {
+  transform: scale(0.99);
+  color: red;
+}
+
+.CBtn:hover {
+  transform: scale(0.99);
+  border: 2px inset white;
+  color: red;
+}
+
+body {
+  background-image: url("../../images/Lib_BackGround.jpg");
+  width: 100%;
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.middle {
+            font-family: sans-serif;
+            position: absolute;
+            top: 20vh;
+            left: 20vw;
+            background-color: rgba(48, 174, 174, 0.473);
+            padding: 20px;
+            border-radius: 40%;
+            text-align: center;
+            animation: middle 5s ease-in infinite;
+        }
+
+  @keyframes middle {
+  50% {
+    transform: scale(0.7);
+        box-shadow: 5px 5px 5px;
+
+  }
+
+  75% {
+              
+ box-shadow: 0 0 0;
+    transform: rotate(360deg);
+  }
+
+  100% {
+       box-shadow: 1px 1px 1px;
+  }
+
+}
+
+.imglogo:hover {
+  transform: skewX(180deg);
+}
+
+.middle h1 {
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(1, 33, 5);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.middle2 {
+  font-weight: 900;
+  font-size: 33px;
+  color: rgb(1, 33, 5);
+  margin-top: 7px;
+  letter-spacing: 2px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.middle3 {
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(1, 33, 5);
+  margin-top: 8px;
+}
